@@ -450,18 +450,3 @@ while(True):
         if token == '.':
             break
     print('ChatBot: ' + answer)
-
-
-# Improving and Tuning the Sequence-to-Sequence Model Using Tensorflow
-
-
-#FORLIST, GRU - PYTORCH, LSTN - TENSORFLOW, RNN Layer?
-    cell is loop in rnn, state is the output, embedding is mapping words of real numbers,
-    each one uniquely embedding the word associated to it
-    keys values functions for 
-    attention keys = compare target state
-    attention values = create context vectors, returned by encoder and used by decoder
-    score function = compute similarities between keys and target state
-    contruct function = build attention state
-    dynamic output state, final state of decoder output context state
-    keep small part of training data to test on new observations
